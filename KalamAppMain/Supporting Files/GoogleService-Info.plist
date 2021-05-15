@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>923774139919-3l72sogtcn58algd48g7ctkck8ua8ngp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.923774139919-3l72sogtcn58algd48g7ctkck8ua8ngp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCjuMhO3KJu5YcJbr1HJ7tLiKDKVtQVhow</string>
+	<key>GCM_SENDER_ID</key>
+	<string>923774139919</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ShaaniOS.KalamAppMain</string>
+	<key>PROJECT_ID</key>
+	<string>kalamappmain</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kalamappmain.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:923774139919:ios:49300bab81bbee5b</string>
+	<key>DATABASE_URL</key>
+	<string>https://kalamappmain.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,979 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5A7EB425914B8A64718194 /* Pods_KalamAppMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD306E5BCD812C0CE5B89F6 /* Pods_KalamAppMain.framework */; };
+		6C4563AF20DB996200EBB131 /* Youtube33ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4563AE20DB996200EBB131 /* Youtube33ViewController.swift */; };
+		6C48306A20D7CA1A00C16C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48306920D7CA1A00C16C58 /* AppDelegate.swift */; };
+		6C48306F20D7CA1A00C16C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C48306D20D7CA1A00C16C58 /* Main.storyboard */; };
+		6C48307120D7CA1A00C16C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C48307020D7CA1A00C16C58 /* Assets.xcassets */; };
+		6C48307420D7CA1A00C16C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C48307220D7CA1A00C16C58 /* LaunchScreen.storyboard */; };
+		6C48307F20D7CA1A00C16C58 /* KalamAppMainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48307E20D7CA1A00C16C58 /* KalamAppMainTests.swift */; };
+		6C48308A20D7CA1A00C16C58 /* KalamAppMainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48308920D7CA1A00C16C58 /* KalamAppMainUITests.swift */; };
+		6C4AA53E2105A6DC00D534BA /* HomeTester2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4AA53D2105A6DC00D534BA /* HomeTester2ViewController.swift */; };
+		6C510D8220E365B1009CB90D /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C510D8120E365B1009CB90D /* testViewController.swift */; };
+		6C5F9EBE20F5E640005EC461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9EBD20F5E640005EC461 /* ViewController.swift */; };
+		6C5F9EC020F5EB39005EC461 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F9EBF20F5EB39005EC461 /* RegisterViewController.swift */; };
+		6C6055E820F87BAA0066FF8F /* IgnitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6055E720F87BAA0066FF8F /* IgnitingViewController.swift */; };
+		6C7E741E20FF0E6D00721DF0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E741D20FF0E6D00721DF0 /* DashboardViewController.swift */; };
+		6C92615620D8CAC600165112 /* Quiz1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92615520D8CAC600165112 /* Quiz1ViewController.swift */; };
+		6C92615C20D8D15A00165112 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92615B20D8D15A00165112 /* Question.swift */; };
+		6C92616020D8D28400165112 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92615F20D8D28400165112 /* QuestionBank.swift */; };
+		6C92616220D8E34D00165112 /* Question1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616120D8E34D00165112 /* Question1.swift */; };
+		6C92616420D8E37C00165112 /* QuestionBank1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616320D8E37C00165112 /* QuestionBank1.swift */; };
+		6C92616620D8E3B800165112 /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616520D8E3B800165112 /* Quiz2ViewController.swift */; };
+		6C92616820D8E8FB00165112 /* Quiz3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616720D8E8FB00165112 /* Quiz3ViewController.swift */; };
+		6C92616A20D8E9CC00165112 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616920D8E9CC00165112 /* Question2.swift */; };
+		6C92616C20D8E9F100165112 /* QuestionBank2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616B20D8E9F100165112 /* QuestionBank2.swift */; };
+		6C92616E20D8EEF400165112 /* Quiz33ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616D20D8EEF400165112 /* Quiz33ViewController.swift */; };
+		6C92617020D8F17F00165112 /* Question22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92616F20D8F17F00165112 /* Question22.swift */; };
+		6C92617220D8F1A600165112 /* QuestionBank22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92617120D8F1A600165112 /* QuestionBank22.swift */; };
+		6C92617420D8FFFA00165112 /* Quiz4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92617320D8FFFA00165112 /* Quiz4ViewController.swift */; };
+		6C92617620D9018800165112 /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92617520D9018800165112 /* Question3.swift */; };
+		6C92617820D901BF00165112 /* QuestionBank3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92617720D901BF00165112 /* QuestionBank3.swift */; };
+		6C92617E20D9077500165112 /* Question33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92617D20D9077500165112 /* Question33.swift */; };
+		6C92618020D9079A00165112 /* QuestionBank33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C92617F20D9079A00165112 /* QuestionBank33.swift */; };
+		6C9B539F2103CC8400210EA4 /* HomeTesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B539E2103CC8400210EA4 /* HomeTesterViewController.swift */; };
+		6CA6E53220E3962D00CFE3F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6E53120E3962D00CFE3F1 /* ProfileViewController.swift */; };
+		6CA7227220DCC0B900E946BC /* Question7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227120DCC0B900E946BC /* Question7.swift */; };
+		6CA7227420DCC0F800E946BC /* QuestionBank7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227320DCC0F800E946BC /* QuestionBank7.swift */; };
+		6CA7227620DCD09100E946BC /* KalamQuiz1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227520DCD09100E946BC /* KalamQuiz1ViewController.swift */; };
+		6CA7227820DCDAEA00E946BC /* Question8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227720DCDAEA00E946BC /* Question8.swift */; };
+		6CA7227A20DCDBB200E946BC /* QuestionBank8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227920DCDBB200E946BC /* QuestionBank8.swift */; };
+		6CA7227C20DCE5F000E946BC /* KalamQuiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227B20DCE5F000E946BC /* KalamQuiz2ViewController.swift */; };
+		6CA7227E20DCFAA000E946BC /* Question9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227D20DCFAA000E946BC /* Question9.swift */; };
+		6CA7228020DCFAF300E946BC /* QuestionBank9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7227F20DCFAF300E946BC /* QuestionBank9.swift */; };
+		6CA7228220DD002400E946BC /* KalamQuiz3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7228120DD002400E946BC /* KalamQuiz3ViewController.swift */; };
+		6CAA89F720DB757700FA41B7 /* Quiz05ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA89F620DB757700FA41B7 /* Quiz05ViewController.swift */; };
+		6CAA89F920DB7A2700FA41B7 /* Quiz55ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA89F820DB7A2700FA41B7 /* Quiz55ViewController.swift */; };
+		6CAA89FB20DB7AC100FA41B7 /* Question44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA89FA20DB7AC100FA41B7 /* Question44.swift */; };
+		6CAA89FD20DB7AE600FA41B7 /* QuestionBank44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA89FC20DB7AE600FA41B7 /* QuestionBank44.swift */; };
+		6CAA89FF20DB80FD00FA41B7 /* Quiz6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA89FE20DB80FD00FA41B7 /* Quiz6ViewController.swift */; };
+		6CAA8A0120DB811E00FA41B7 /* Question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0020DB811E00FA41B7 /* Question5.swift */; };
+		6CAA8A0320DB81D800FA41B7 /* QuestionBank55.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0220DB81D800FA41B7 /* QuestionBank55.swift */; };
+		6CAA8A0720DB893C00FA41B7 /* Question6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0620DB893C00FA41B7 /* Question6.swift */; };
+		6CAA8A0920DB895C00FA41B7 /* QuestionBank6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0820DB895C00FA41B7 /* QuestionBank6.swift */; };
+		6CAA8A0B20DB8DC300FA41B7 /* Quiz6MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0A20DB8DC300FA41B7 /* Quiz6MainViewController.swift */; };
+		6CAA8A0D20DB927D00FA41B7 /* Youtube1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0C20DB927D00FA41B7 /* Youtube1ViewController.swift */; };
+		6CAA8A0F20DB963000FA41B7 /* Youtube2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A0E20DB963000FA41B7 /* Youtube2ViewController.swift */; };
+		6CAA8A1120DB981600FA41B7 /* Youtube3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA8A1020DB981600FA41B7 /* Youtube3ViewController.swift */; };
+		6CAF312F20DB6DA0009F3ED2 /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF312E20DB6DA0009F3ED2 /* Question4.swift */; };
+		6CAF313120DB6DF5009F3ED2 /* QuestionBank4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAF313020DB6DF5009F3ED2 /* QuestionBank4.swift */; };
+		6CC04C8020FDB428009D0B16 /* LahudaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC04C7F20FDB428009D0B16 /* LahudaanViewController.swift */; };
+		6CC04C8220FDC2F7009D0B16 /* RightToWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC04C8120FDC2F7009D0B16 /* RightToWaterViewController.swift */; };
+		6CC04C8420FDC3BA009D0B16 /* WhatCanIGiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC04C8320FDC3BA009D0B16 /* WhatCanIGiveViewController.swift */; };
+		6CC4B07B2104CB5900CC5DD1 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4B07A2104CB5900CC5DD1 /* SurveyViewController.swift */; };
+		6CC4B07D2104CE6E00CC5DD1 /* Question10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4B07C2104CE6E00CC5DD1 /* Question10.swift */; };
+		6CC4B0802104CEFF00CC5DD1 /* QuestionBank10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4B07F2104CEFF00CC5DD1 /* QuestionBank10.swift */; };
+		6CC4B0822104E24800CC5DD1 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4B0812104E24800CC5DD1 /* SecondScreenViewController.swift */; };
+		6CCE565520D90E5E003403BD /* Quiz4MAinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCE565420D90E5E003403BD /* Quiz4MAinViewController.swift */; };
+		6CD1C7D020E633D50051D90F /* testsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1C7CF20E633D50051D90F /* testsViewController.swift */; };
+		6CD6B524264FD054001809B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CD6B523264FD054001809B5 /* GoogleService-Info.plist */; };
+		6CE9A0D02101DD03005CA402 /* InterventionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE9A0CF2101DD03005CA402 /* InterventionViewController.swift */; };
+		6CFFC8FF20DBA65E0013D5BB /* Youtube44ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC8FE20DBA65E0013D5BB /* Youtube44ViewController.swift */; };
+		6CFFC90120DBA8080013D5BB /* Youtube5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC90020DBA8080013D5BB /* Youtube5ViewController.swift */; };
+		6CFFC90320DBAAC00013D5BB /* Youtube55ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC90220DBAAC00013D5BB /* Youtube55ViewController.swift */; };
+		6CFFC90520DBAD040013D5BB /* Reading1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC90420DBAD040013D5BB /* Reading1ViewController.swift */; };
+		6CFFC90720DBAE490013D5BB /* Reading4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC90620DBAE490013D5BB /* Reading4ViewController.swift */; };
+		6CFFC90920DBAF890013D5BB /* Reading6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC90820DBAF890013D5BB /* Reading6ViewController.swift */; };
+		6CFFC90B20DBB2350013D5BB /* Case Study_ Water ATMs in Rajasthan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6CFFC90A20DBB2350013D5BB /* Case Study_ Water ATMs in Rajasthan.pdf */; };
+		6CFFC90D20DBB2530013D5BB /* Reading66ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC90C20DBB2530013D5BB /* Reading66ViewController.swift */; };
+		6CFFC91220DBCB200013D5BB /* KalamReading1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC91120DBCB200013D5BB /* KalamReading1ViewController.swift */; };
+		6CFFC91420DBCD9C0013D5BB /* Reading 1.doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6CFFC91320DBCD9C0013D5BB /* Reading 1.doc.pdf */; };
+		6CFFC91620DBCDCB0013D5BB /* Reading 2.doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6CFFC91520DBCDCB0013D5BB /* Reading 2.doc.pdf */; };
+		6CFFC91820DBCDED0013D5BB /* Reading 3.doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6CFFC91720DBCDED0013D5BB /* Reading 3.doc.pdf */; };
+		6CFFC91B20DBCEBF0013D5BB /* KalamReading2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC91A20DBCEBF0013D5BB /* KalamReading2ViewController.swift */; };
+		6CFFC91D20DBCFDA0013D5BB /* KalamReading3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFFC91C20DBCFDA0013D5BB /* KalamReading3ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C48307B20D7CA1A00C16C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C48305E20D7CA1900C16C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C48306520D7CA1A00C16C58;
+			remoteInfo = KalamAppMain;
+		};
+		6C48308620D7CA1A00C16C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C48305E20D7CA1900C16C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C48306520D7CA1A00C16C58;
+			remoteInfo = KalamAppMain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BA4F0BF17F74DE091C4D6EB /* Pods-KalamAppMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalamAppMain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KalamAppMain/Pods-KalamAppMain.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4563AE20DB996200EBB131 /* Youtube33ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube33ViewController.swift; sourceTree = "<group>"; };
+		6C48306620D7CA1A00C16C58 /* KalamAppMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalamAppMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48306920D7CA1A00C16C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C48306E20D7CA1A00C16C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C48307020D7CA1A00C16C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C48307320D7CA1A00C16C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C48307520D7CA1A00C16C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C48307A20D7CA1A00C16C58 /* KalamAppMainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalamAppMainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48307E20D7CA1A00C16C58 /* KalamAppMainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamAppMainTests.swift; sourceTree = "<group>"; };
+		6C48308020D7CA1A00C16C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C48308520D7CA1A00C16C58 /* KalamAppMainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalamAppMainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48308920D7CA1A00C16C58 /* KalamAppMainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamAppMainUITests.swift; sourceTree = "<group>"; };
+		6C48308B20D7CA1A00C16C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4AA53D2105A6DC00D534BA /* HomeTester2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTester2ViewController.swift; sourceTree = "<group>"; };
+		6C510D8120E365B1009CB90D /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		6C5F9EBD20F5E640005EC461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C5F9EBF20F5EB39005EC461 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6C6055E720F87BAA0066FF8F /* IgnitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnitingViewController.swift; sourceTree = "<group>"; };
+		6C7E741D20FF0E6D00721DF0 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6C92615520D8CAC600165112 /* Quiz1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1ViewController.swift; sourceTree = "<group>"; };
+		6C92615B20D8D15A00165112 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		6C92615F20D8D28400165112 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		6C92616120D8E34D00165112 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
+		6C92616320D8E37C00165112 /* QuestionBank1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank1.swift; sourceTree = "<group>"; };
+		6C92616520D8E3B800165112 /* Quiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = "<group>"; };
+		6C92616720D8E8FB00165112 /* Quiz3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3ViewController.swift; sourceTree = "<group>"; };
+		6C92616920D8E9CC00165112 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
+		6C92616B20D8E9F100165112 /* QuestionBank2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank2.swift; sourceTree = "<group>"; };
+		6C92616D20D8EEF400165112 /* Quiz33ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz33ViewController.swift; sourceTree = "<group>"; };
+		6C92616F20D8F17F00165112 /* Question22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question22.swift; sourceTree = "<group>"; };
+		6C92617120D8F1A600165112 /* QuestionBank22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank22.swift; sourceTree = "<group>"; };
+		6C92617320D8FFFA00165112 /* Quiz4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz4ViewController.swift; sourceTree = "<group>"; };
+		6C92617520D9018800165112 /* Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
+		6C92617720D901BF00165112 /* QuestionBank3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank3.swift; sourceTree = "<group>"; };
+		6C92617D20D9077500165112 /* Question33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question33.swift; sourceTree = "<group>"; };
+		6C92617F20D9079A00165112 /* QuestionBank33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank33.swift; sourceTree = "<group>"; };
+		6C96B34420D7D7A700F6E031 /* KalamAppMain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KalamAppMain.entitlements; sourceTree = "<group>"; };
+		6C9B539E2103CC8400210EA4 /* HomeTesterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTesterViewController.swift; sourceTree = "<group>"; };
+		6CA6E53120E3962D00CFE3F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6CA7227120DCC0B900E946BC /* Question7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question7.swift; sourceTree = "<group>"; };
+		6CA7227320DCC0F800E946BC /* QuestionBank7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank7.swift; sourceTree = "<group>"; };
+		6CA7227520DCD09100E946BC /* KalamQuiz1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamQuiz1ViewController.swift; sourceTree = "<group>"; };
+		6CA7227720DCDAEA00E946BC /* Question8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question8.swift; sourceTree = "<group>"; };
+		6CA7227920DCDBB200E946BC /* QuestionBank8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank8.swift; sourceTree = "<group>"; };
+		6CA7227B20DCE5F000E946BC /* KalamQuiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamQuiz2ViewController.swift; sourceTree = "<group>"; };
+		6CA7227D20DCFAA000E946BC /* Question9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question9.swift; sourceTree = "<group>"; };
+		6CA7227F20DCFAF300E946BC /* QuestionBank9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank9.swift; sourceTree = "<group>"; };
+		6CA7228120DD002400E946BC /* KalamQuiz3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamQuiz3ViewController.swift; sourceTree = "<group>"; };
+		6CAA89F620DB757700FA41B7 /* Quiz05ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz05ViewController.swift; sourceTree = "<group>"; };
+		6CAA89F820DB7A2700FA41B7 /* Quiz55ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz55ViewController.swift; sourceTree = "<group>"; };
+		6CAA89FA20DB7AC100FA41B7 /* Question44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question44.swift; sourceTree = "<group>"; };
+		6CAA89FC20DB7AE600FA41B7 /* QuestionBank44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank44.swift; sourceTree = "<group>"; };
+		6CAA89FE20DB80FD00FA41B7 /* Quiz6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz6ViewController.swift; sourceTree = "<group>"; };
+		6CAA8A0020DB811E00FA41B7 /* Question5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question5.swift; sourceTree = "<group>"; };
+		6CAA8A0220DB81D800FA41B7 /* QuestionBank55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank55.swift; sourceTree = "<group>"; };
+		6CAA8A0620DB893C00FA41B7 /* Question6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question6.swift; sourceTree = "<group>"; };
+		6CAA8A0820DB895C00FA41B7 /* QuestionBank6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank6.swift; sourceTree = "<group>"; };
+		6CAA8A0A20DB8DC300FA41B7 /* Quiz6MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz6MainViewController.swift; sourceTree = "<group>"; };
+		6CAA8A0C20DB927D00FA41B7 /* Youtube1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube1ViewController.swift; sourceTree = "<group>"; };
+		6CAA8A0E20DB963000FA41B7 /* Youtube2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube2ViewController.swift; sourceTree = "<group>"; };
+		6CAA8A1020DB981600FA41B7 /* Youtube3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube3ViewController.swift; sourceTree = "<group>"; };
+		6CAF312E20DB6DA0009F3ED2 /* Question4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
+		6CAF313020DB6DF5009F3ED2 /* QuestionBank4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank4.swift; sourceTree = "<group>"; };
+		6CC04C7F20FDB428009D0B16 /* LahudaanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LahudaanViewController.swift; sourceTree = "<group>"; };
+		6CC04C8120FDC2F7009D0B16 /* RightToWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToWaterViewController.swift; sourceTree = "<group>"; };
+		6CC04C8320FDC3BA009D0B16 /* WhatCanIGiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatCanIGiveViewController.swift; sourceTree = "<group>"; };
+		6CC4B07A2104CB5900CC5DD1 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		6CC4B07C2104CE6E00CC5DD1 /* Question10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question10.swift; sourceTree = "<group>"; };
+		6CC4B07F2104CEFF00CC5DD1 /* QuestionBank10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank10.swift; sourceTree = "<group>"; };
+		6CC4B0812104E24800CC5DD1 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		6CCE565420D90E5E003403BD /* Quiz4MAinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz4MAinViewController.swift; sourceTree = "<group>"; };
+		6CD1C7CF20E633D50051D90F /* testsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsViewController.swift; sourceTree = "<group>"; };
+		6CD6B523264FD054001809B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CE9A0CF2101DD03005CA402 /* InterventionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterventionViewController.swift; sourceTree = "<group>"; };
+		6CFFC8FE20DBA65E0013D5BB /* Youtube44ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube44ViewController.swift; sourceTree = "<group>"; };
+		6CFFC90020DBA8080013D5BB /* Youtube5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube5ViewController.swift; sourceTree = "<group>"; };
+		6CFFC90220DBAAC00013D5BB /* Youtube55ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube55ViewController.swift; sourceTree = "<group>"; };
+		6CFFC90420DBAD040013D5BB /* Reading1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading1ViewController.swift; sourceTree = "<group>"; };
+		6CFFC90620DBAE490013D5BB /* Reading4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading4ViewController.swift; sourceTree = "<group>"; };
+		6CFFC90820DBAF890013D5BB /* Reading6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading6ViewController.swift; sourceTree = "<group>"; };
+		6CFFC90A20DBB2350013D5BB /* Case Study_ Water ATMs in Rajasthan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Case Study_ Water ATMs in Rajasthan.pdf"; sourceTree = "<group>"; };
+		6CFFC90C20DBB2530013D5BB /* Reading66ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading66ViewController.swift; sourceTree = "<group>"; };
+		6CFFC91120DBCB200013D5BB /* KalamReading1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamReading1ViewController.swift; sourceTree = "<group>"; };
+		6CFFC91320DBCD9C0013D5BB /* Reading 1.doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reading 1.doc.pdf"; sourceTree = "<group>"; };
+		6CFFC91520DBCDCB0013D5BB /* Reading 2.doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reading 2.doc.pdf"; sourceTree = "<group>"; };
+		6CFFC91720DBCDED0013D5BB /* Reading 3.doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reading 3.doc.pdf"; sourceTree = "<group>"; };
+		6CFFC91A20DBCEBF0013D5BB /* KalamReading2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamReading2ViewController.swift; sourceTree = "<group>"; };
+		6CFFC91C20DBCFDA0013D5BB /* KalamReading3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalamReading3ViewController.swift; sourceTree = "<group>"; };
+		BFD306E5BCD812C0CE5B89F6 /* Pods_KalamAppMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KalamAppMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F79381792CB604BB8BD014 /* Pods-KalamAppMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KalamAppMain.release.xcconfig"; path = "Pods/Target Support Files/Pods-KalamAppMain/Pods-KalamAppMain.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C48306320D7CA1A00C16C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5A7EB425914B8A64718194 /* Pods_KalamAppMain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48307720D7CA1A00C16C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48308220D7CA1A00C16C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C48305D20D7CA1900C16C58 = {
+			isa = PBXGroup;
+			children = (
+				6C48306820D7CA1A00C16C58 /* KalamAppMain */,
+				6C48307D20D7CA1A00C16C58 /* KalamAppMainTests */,
+				6C48308820D7CA1A00C16C58 /* KalamAppMainUITests */,
+				6C48306720D7CA1A00C16C58 /* Products */,
+				7F8DC65EC16696842F07C83D /* Pods */,
+				D8B3A068A720329728F0DFCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C48306720D7CA1A00C16C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C48306620D7CA1A00C16C58 /* KalamAppMain.app */,
+				6C48307A20D7CA1A00C16C58 /* KalamAppMainTests.xctest */,
+				6C48308520D7CA1A00C16C58 /* KalamAppMainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C48306820D7CA1A00C16C58 /* KalamAppMain */ = {
+			isa = PBXGroup;
+			children = (
+				6C92615A20D8D14200165112 /* Model */,
+				6C96B34420D7D7A700F6E031 /* KalamAppMain.entitlements */,
+				6C92615720D8CE3900165112 /* Controller */,
+				6C92615820D8CE4C00165112 /* New Group */,
+				6C92615920D8CE8300165112 /* Supporting Files */,
+			);
+			path = KalamAppMain;
+			sourceTree = "<group>";
+		};
+		6C48307D20D7CA1A00C16C58 /* KalamAppMainTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C48307E20D7CA1A00C16C58 /* KalamAppMainTests.swift */,
+				6C48308020D7CA1A00C16C58 /* Info.plist */,
+			);
+			path = KalamAppMainTests;
+			sourceTree = "<group>";
+		};
+		6C48308820D7CA1A00C16C58 /* KalamAppMainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C48308920D7CA1A00C16C58 /* KalamAppMainUITests.swift */,
+				6C48308B20D7CA1A00C16C58 /* Info.plist */,
+			);
+			path = KalamAppMainUITests;
+			sourceTree = "<group>";
+		};
+		6C92615720D8CE3900165112 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C48306920D7CA1A00C16C58 /* AppDelegate.swift */,
+				6C92615520D8CAC600165112 /* Quiz1ViewController.swift */,
+				6C92616520D8E3B800165112 /* Quiz2ViewController.swift */,
+				6C92616720D8E8FB00165112 /* Quiz3ViewController.swift */,
+				6C92616D20D8EEF400165112 /* Quiz33ViewController.swift */,
+				6C92617320D8FFFA00165112 /* Quiz4ViewController.swift */,
+				6CCE565420D90E5E003403BD /* Quiz4MAinViewController.swift */,
+				6CAA89F620DB757700FA41B7 /* Quiz05ViewController.swift */,
+				6CAA89F820DB7A2700FA41B7 /* Quiz55ViewController.swift */,
+				6CAA89FE20DB80FD00FA41B7 /* Quiz6ViewController.swift */,
+				6CAA8A0A20DB8DC300FA41B7 /* Quiz6MainViewController.swift */,
+				6CAA8A0C20DB927D00FA41B7 /* Youtube1ViewController.swift */,
+				6CAA8A0E20DB963000FA41B7 /* Youtube2ViewController.swift */,
+				6CAA8A1020DB981600FA41B7 /* Youtube3ViewController.swift */,
+				6C4563AE20DB996200EBB131 /* Youtube33ViewController.swift */,
+				6CFFC8FE20DBA65E0013D5BB /* Youtube44ViewController.swift */,
+				6CFFC90020DBA8080013D5BB /* Youtube5ViewController.swift */,
+				6CFFC90220DBAAC00013D5BB /* Youtube55ViewController.swift */,
+				6CFFC90420DBAD040013D5BB /* Reading1ViewController.swift */,
+				6CFFC90620DBAE490013D5BB /* Reading4ViewController.swift */,
+				6CFFC90820DBAF890013D5BB /* Reading6ViewController.swift */,
+				6CFFC90C20DBB2530013D5BB /* Reading66ViewController.swift */,
+				6CFFC91120DBCB200013D5BB /* KalamReading1ViewController.swift */,
+				6CFFC91A20DBCEBF0013D5BB /* KalamReading2ViewController.swift */,
+				6CFFC91C20DBCFDA0013D5BB /* KalamReading3ViewController.swift */,
+				6CA7227520DCD09100E946BC /* KalamQuiz1ViewController.swift */,
+				6CA7227B20DCE5F000E946BC /* KalamQuiz2ViewController.swift */,
+				6CA7228120DD002400E946BC /* KalamQuiz3ViewController.swift */,
+				6C510D8120E365B1009CB90D /* testViewController.swift */,
+				6CA6E53120E3962D00CFE3F1 /* ProfileViewController.swift */,
+				6CD1C7CF20E633D50051D90F /* testsViewController.swift */,
+				6C5F9EBD20F5E640005EC461 /* ViewController.swift */,
+				6C5F9EBF20F5EB39005EC461 /* RegisterViewController.swift */,
+				6C6055E720F87BAA0066FF8F /* IgnitingViewController.swift */,
+				6CC04C7F20FDB428009D0B16 /* LahudaanViewController.swift */,
+				6CC04C8120FDC2F7009D0B16 /* RightToWaterViewController.swift */,
+				6CC04C8320FDC3BA009D0B16 /* WhatCanIGiveViewController.swift */,
+				6C7E741D20FF0E6D00721DF0 /* DashboardViewController.swift */,
+				6CE9A0CF2101DD03005CA402 /* InterventionViewController.swift */,
+				6C9B539E2103CC8400210EA4 /* HomeTesterViewController.swift */,
+				6CC4B07A2104CB5900CC5DD1 /* SurveyViewController.swift */,
+				6CC4B0812104E24800CC5DD1 /* SecondScreenViewController.swift */,
+				6C4AA53D2105A6DC00D534BA /* HomeTester2ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C92615820D8CE4C00165112 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6C48306D20D7CA1A00C16C58 /* Main.storyboard */,
+				6C48307020D7CA1A00C16C58 /* Assets.xcassets */,
+				6CFFC91520DBCDCB0013D5BB /* Reading 2.doc.pdf */,
+				6CFFC91320DBCD9C0013D5BB /* Reading 1.doc.pdf */,
+				6CFFC91720DBCDED0013D5BB /* Reading 3.doc.pdf */,
+				6CFFC90A20DBB2350013D5BB /* Case Study_ Water ATMs in Rajasthan.pdf */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6C92615920D8CE8300165112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C48307220D7CA1A00C16C58 /* LaunchScreen.storyboard */,
+				6CD6B523264FD054001809B5 /* GoogleService-Info.plist */,
+				6C48307520D7CA1A00C16C58 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C92615A20D8D14200165112 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C92615B20D8D15A00165112 /* Question.swift */,
+				6C92615F20D8D28400165112 /* QuestionBank.swift */,
+				6C92616120D8E34D00165112 /* Question1.swift */,
+				6C92616320D8E37C00165112 /* QuestionBank1.swift */,
+				6C92616920D8E9CC00165112 /* Question2.swift */,
+				6C92616B20D8E9F100165112 /* QuestionBank2.swift */,
+				6C92616F20D8F17F00165112 /* Question22.swift */,
+				6C92617120D8F1A600165112 /* QuestionBank22.swift */,
+				6C92617520D9018800165112 /* Question3.swift */,
+				6C92617720D901BF00165112 /* QuestionBank3.swift */,
+				6C92617D20D9077500165112 /* Question33.swift */,
+				6C92617F20D9079A00165112 /* QuestionBank33.swift */,
+				6CAF312E20DB6DA0009F3ED2 /* Question4.swift */,
+				6CAF313020DB6DF5009F3ED2 /* QuestionBank4.swift */,
+				6CAA89FA20DB7AC100FA41B7 /* Question44.swift */,
+				6CAA89FC20DB7AE600FA41B7 /* QuestionBank44.swift */,
+				6CAA8A0020DB811E00FA41B7 /* Question5.swift */,
+				6CAA8A0220DB81D800FA41B7 /* QuestionBank55.swift */,
+				6CAA8A0620DB893C00FA41B7 /* Question6.swift */,
+				6CAA8A0820DB895C00FA41B7 /* QuestionBank6.swift */,
+				6CA7227120DCC0B900E946BC /* Question7.swift */,
+				6CA7227320DCC0F800E946BC /* QuestionBank7.swift */,
+				6CA7227720DCDAEA00E946BC /* Question8.swift */,
+				6CA7227920DCDBB200E946BC /* QuestionBank8.swift */,
+				6CA7227D20DCFAA000E946BC /* Question9.swift */,
+				6CA7227F20DCFAF300E946BC /* QuestionBank9.swift */,
+				6CC4B07C2104CE6E00CC5DD1 /* Question10.swift */,
+				6CC4B07F2104CEFF00CC5DD1 /* QuestionBank10.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F8DC65EC16696842F07C83D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BA4F0BF17F74DE091C4D6EB /* Pods-KalamAppMain.debug.xcconfig */,
+				F7F79381792CB604BB8BD014 /* Pods-KalamAppMain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8B3A068A720329728F0DFCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD306E5BCD812C0CE5B89F6 /* Pods_KalamAppMain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C48306520D7CA1A00C16C58 /* KalamAppMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48308E20D7CA1A00C16C58 /* Build configuration list for PBXNativeTarget "KalamAppMain" */;
+			buildPhases = (
+				926CC15B04227F762967BCE2 /* [CP] Check Pods Manifest.lock */,
+				6C48306220D7CA1A00C16C58 /* Sources */,
+				6C48306320D7CA1A00C16C58 /* Frameworks */,
+				6C48306420D7CA1A00C16C58 /* Resources */,
+				4BAC9DCF2FC939A4F5CAF060 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalamAppMain;
+			productName = KalamAppMain;
+			productReference = 6C48306620D7CA1A00C16C58 /* KalamAppMain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C48307920D7CA1A00C16C58 /* KalamAppMainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48309120D7CA1A00C16C58 /* Build configuration list for PBXNativeTarget "KalamAppMainTests" */;
+			buildPhases = (
+				6C48307620D7CA1A00C16C58 /* Sources */,
+				6C48307720D7CA1A00C16C58 /* Frameworks */,
+				6C48307820D7CA1A00C16C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C48307C20D7CA1A00C16C58 /* PBXTargetDependency */,
+			);
+			name = KalamAppMainTests;
+			productName = KalamAppMainTests;
+			productReference = 6C48307A20D7CA1A00C16C58 /* KalamAppMainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C48308420D7CA1A00C16C58 /* KalamAppMainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48309420D7CA1A00C16C58 /* Build configuration list for PBXNativeTarget "KalamAppMainUITests" */;
+			buildPhases = (
+				6C48308120D7CA1A00C16C58 /* Sources */,
+				6C48308220D7CA1A00C16C58 /* Frameworks */,
+				6C48308320D7CA1A00C16C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C48308720D7CA1A00C16C58 /* PBXTargetDependency */,
+			);
+			name = KalamAppMainUITests;
+			productName = KalamAppMainUITests;
+			productReference = 6C48308520D7CA1A00C16C58 /* KalamAppMainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C48305E20D7CA1900C16C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "shantanu pandey";
+				TargetAttributes = {
+					6C48306520D7CA1A00C16C58 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					6C48307920D7CA1A00C16C58 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C48306520D7CA1A00C16C58;
+					};
+					6C48308420D7CA1A00C16C58 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C48306520D7CA1A00C16C58;
+					};
+				};
+			};
+			buildConfigurationList = 6C48306120D7CA1900C16C58 /* Build configuration list for PBXProject "KalamAppMain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C48305D20D7CA1900C16C58;
+			productRefGroup = 6C48306720D7CA1A00C16C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C48306520D7CA1A00C16C58 /* KalamAppMain */,
+				6C48307920D7CA1A00C16C58 /* KalamAppMainTests */,
+				6C48308420D7CA1A00C16C58 /* KalamAppMainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C48306420D7CA1A00C16C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48307420D7CA1A00C16C58 /* LaunchScreen.storyboard in Resources */,
+				6CD6B524264FD054001809B5 /* GoogleService-Info.plist in Resources */,
+				6CFFC91620DBCDCB0013D5BB /* Reading 2.doc.pdf in Resources */,
+				6CFFC91420DBCD9C0013D5BB /* Reading 1.doc.pdf in Resources */,
+				6CFFC91820DBCDED0013D5BB /* Reading 3.doc.pdf in Resources */,
+				6C48307120D7CA1A00C16C58 /* Assets.xcassets in Resources */,
+				6CFFC90B20DBB2350013D5BB /* Case Study_ Water ATMs in Rajasthan.pdf in Resources */,
+				6C48306F20D7CA1A00C16C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48307820D7CA1A00C16C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48308320D7CA1A00C16C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BAC9DCF2FC939A4F5CAF060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KalamAppMain/Pods-KalamAppMain-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KalamAppMain/Pods-KalamAppMain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926CC15B04227F762967BCE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KalamAppMain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C48306220D7CA1A00C16C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA89F720DB757700FA41B7 /* Quiz05ViewController.swift in Sources */,
+				6CA7227C20DCE5F000E946BC /* KalamQuiz2ViewController.swift in Sources */,
+				6C510D8220E365B1009CB90D /* testViewController.swift in Sources */,
+				6CAA89FB20DB7AC100FA41B7 /* Question44.swift in Sources */,
+				6CA7228220DD002400E946BC /* KalamQuiz3ViewController.swift in Sources */,
+				6CFFC90720DBAE490013D5BB /* Reading4ViewController.swift in Sources */,
+				6CFFC91B20DBCEBF0013D5BB /* KalamReading2ViewController.swift in Sources */,
+				6CFFC90320DBAAC00013D5BB /* Youtube55ViewController.swift in Sources */,
+				6CA6E53220E3962D00CFE3F1 /* ProfileViewController.swift in Sources */,
+				6C92618020D9079A00165112 /* QuestionBank33.swift in Sources */,
+				6CAA89FF20DB80FD00FA41B7 /* Quiz6ViewController.swift in Sources */,
+				6C92616220D8E34D00165112 /* Question1.swift in Sources */,
+				6CA7227420DCC0F800E946BC /* QuestionBank7.swift in Sources */,
+				6C92615C20D8D15A00165112 /* Question.swift in Sources */,
+				6CAA8A1120DB981600FA41B7 /* Youtube3ViewController.swift in Sources */,
+				6CAA8A0F20DB963000FA41B7 /* Youtube2ViewController.swift in Sources */,
+				6CA7227220DCC0B900E946BC /* Question7.swift in Sources */,
+				6CC04C8020FDB428009D0B16 /* LahudaanViewController.swift in Sources */,
+				6CA7227820DCDAEA00E946BC /* Question8.swift in Sources */,
+				6C92616E20D8EEF400165112 /* Quiz33ViewController.swift in Sources */,
+				6C92617020D8F17F00165112 /* Question22.swift in Sources */,
+				6C5F9EBE20F5E640005EC461 /* ViewController.swift in Sources */,
+				6CA7227E20DCFAA000E946BC /* Question9.swift in Sources */,
+				6CAA89F920DB7A2700FA41B7 /* Quiz55ViewController.swift in Sources */,
+				6C92617620D9018800165112 /* Question3.swift in Sources */,
+				6C92617E20D9077500165112 /* Question33.swift in Sources */,
+				6C48306A20D7CA1A00C16C58 /* AppDelegate.swift in Sources */,
+				6CAA8A0320DB81D800FA41B7 /* QuestionBank55.swift in Sources */,
+				6CC4B07B2104CB5900CC5DD1 /* SurveyViewController.swift in Sources */,
+				6C92616020D8D28400165112 /* QuestionBank.swift in Sources */,
+				6C92615620D8CAC600165112 /* Quiz1ViewController.swift in Sources */,
+				6CC04C8420FDC3BA009D0B16 /* WhatCanIGiveViewController.swift in Sources */,
+				6CC4B07D2104CE6E00CC5DD1 /* Question10.swift in Sources */,
+				6C92617820D901BF00165112 /* QuestionBank3.swift in Sources */,
+				6CC4B0802104CEFF00CC5DD1 /* QuestionBank10.swift in Sources */,
+				6CFFC8FF20DBA65E0013D5BB /* Youtube44ViewController.swift in Sources */,
+				6CC04C8220FDC2F7009D0B16 /* RightToWaterViewController.swift in Sources */,
+				6CAF312F20DB6DA0009F3ED2 /* Question4.swift in Sources */,
+				6CFFC91D20DBCFDA0013D5BB /* KalamReading3ViewController.swift in Sources */,
+				6C92616C20D8E9F100165112 /* QuestionBank2.swift in Sources */,
+				6C92617420D8FFFA00165112 /* Quiz4ViewController.swift in Sources */,
+				6C4563AF20DB996200EBB131 /* Youtube33ViewController.swift in Sources */,
+				6C92616A20D8E9CC00165112 /* Question2.swift in Sources */,
+				6C5F9EC020F5EB39005EC461 /* RegisterViewController.swift in Sources */,
+				6C92616820D8E8FB00165112 /* Quiz3ViewController.swift in Sources */,
+				6C9B539F2103CC8400210EA4 /* HomeTesterViewController.swift in Sources */,
+				6CC4B0822104E24800CC5DD1 /* SecondScreenViewController.swift in Sources */,
+				6C92617220D8F1A600165112 /* QuestionBank22.swift in Sources */,
+				6CAA8A0920DB895C00FA41B7 /* QuestionBank6.swift in Sources */,
+				6CAA8A0720DB893C00FA41B7 /* Question6.swift in Sources */,
+				6CCE565520D90E5E003403BD /* Quiz4MAinViewController.swift in Sources */,
+				6CA7227620DCD09100E946BC /* KalamQuiz1ViewController.swift in Sources */,
+				6CFFC91220DBCB200013D5BB /* KalamReading1ViewController.swift in Sources */,
+				6CFFC90120DBA8080013D5BB /* Youtube5ViewController.swift in Sources */,
+				6C92616620D8E3B800165112 /* Quiz2ViewController.swift in Sources */,
+				6C6055E820F87BAA0066FF8F /* IgnitingViewController.swift in Sources */,
+				6C4AA53E2105A6DC00D534BA /* HomeTester2ViewController.swift in Sources */,
+				6CFFC90920DBAF890013D5BB /* Reading6ViewController.swift in Sources */,
+				6CFFC90520DBAD040013D5BB /* Reading1ViewController.swift in Sources */,
+				6CA7227A20DCDBB200E946BC /* QuestionBank8.swift in Sources */,
+				6CFFC90D20DBB2530013D5BB /* Reading66ViewController.swift in Sources */,
+				6CA7228020DCFAF300E946BC /* QuestionBank9.swift in Sources */,
+				6CAA8A0B20DB8DC300FA41B7 /* Quiz6MainViewController.swift in Sources */,
+				6CAF313120DB6DF5009F3ED2 /* QuestionBank4.swift in Sources */,
+				6CAA8A0D20DB927D00FA41B7 /* Youtube1ViewController.swift in Sources */,
+				6C92616420D8E37C00165112 /* QuestionBank1.swift in Sources */,
+				6CE9A0D02101DD03005CA402 /* InterventionViewController.swift in Sources */,
+				6CAA89FD20DB7AE600FA41B7 /* QuestionBank44.swift in Sources */,
+				6CD1C7D020E633D50051D90F /* testsViewController.swift in Sources */,
+				6CAA8A0120DB811E00FA41B7 /* Question5.swift in Sources */,
+				6C7E741E20FF0E6D00721DF0 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48307620D7CA1A00C16C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48307F20D7CA1A00C16C58 /* KalamAppMainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C48308120D7CA1A00C16C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48308A20D7CA1A00C16C58 /* KalamAppMainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C48307C20D7CA1A00C16C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C48306520D7CA1A00C16C58 /* KalamAppMain */;
+			targetProxy = 6C48307B20D7CA1A00C16C58 /* PBXContainerItemProxy */;
+		};
+		6C48308720D7CA1A00C16C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C48306520D7CA1A00C16C58 /* KalamAppMain */;
+			targetProxy = 6C48308620D7CA1A00C16C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C48306D20D7CA1A00C16C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C48306E20D7CA1A00C16C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C48307220D7CA1A00C16C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C48307320D7CA1A00C16C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C48308C20D7CA1A00C16C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C48308D20D7CA1A00C16C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C48308F20D7CA1A00C16C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA4F0BF17F74DE091C4D6EB /* Pods-KalamAppMain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KalamAppMain/KalamAppMain.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ9BVYWX52;
+				INFOPLIST_FILE = "$(SRCROOT)/KalamAppMain/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaaniOS.KalamAppMain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C48309020D7CA1A00C16C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F79381792CB604BB8BD014 /* Pods-KalamAppMain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KalamAppMain/KalamAppMain.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ9BVYWX52;
+				INFOPLIST_FILE = "$(SRCROOT)/KalamAppMain/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaaniOS.KalamAppMain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C48309220D7CA1A00C16C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ9BVYWX52;
+				INFOPLIST_FILE = KalamAppMainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaaniOS.KalamAppMainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalamAppMain.app/KalamAppMain";
+			};
+			name = Debug;
+		};
+		6C48309320D7CA1A00C16C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ9BVYWX52;
+				INFOPLIST_FILE = KalamAppMainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaaniOS.KalamAppMainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalamAppMain.app/KalamAppMain";
+			};
+			name = Release;
+		};
+		6C48309520D7CA1A00C16C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ9BVYWX52;
+				INFOPLIST_FILE = KalamAppMainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaaniOS.KalamAppMainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalamAppMain;
+			};
+			name = Debug;
+		};
+		6C48309620D7CA1A00C16C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RZ9BVYWX52;
+				INFOPLIST_FILE = KalamAppMainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaaniOS.KalamAppMainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalamAppMain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C48306120D7CA1900C16C58 /* Build configuration list for PBXProject "KalamAppMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48308C20D7CA1A00C16C58 /* Debug */,
+				6C48308D20D7CA1A00C16C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C48308E20D7CA1A00C16C58 /* Build configuration list for PBXNativeTarget "KalamAppMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48308F20D7CA1A00C16C58 /* Debug */,
+				6C48309020D7CA1A00C16C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C48309120D7CA1A00C16C58 /* Build configuration list for PBXNativeTarget "KalamAppMainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48309220D7CA1A00C16C58 /* Debug */,
+				6C48309320D7CA1A00C16C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C48309420D7CA1A00C16C58 /* Build configuration list for PBXNativeTarget "KalamAppMainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48309520D7CA1A00C16C58 /* Debug */,
+				6C48309620D7CA1A00C16C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C48305E20D7CA1900C16C58 /* Project object */;
+}
